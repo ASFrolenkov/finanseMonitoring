@@ -30,13 +30,13 @@ const CardSelector = ({data, flag, toggleBtn}: any) => {
         }
 
         setEditedArr(data)
-    }, [data]);
+    }, [data, flag]);
 
     useEffect(() => {
         if (currentData && flag !== 'to') {
             setCurrentData(stateData);
         }
-    }, [stateData])
+    }, [currentData, flag, stateData])
 
     const onChangeHandler = (e: any) => {
         const inputType = e.nativeEvent.inputType; //deleteContentBackward | insertText

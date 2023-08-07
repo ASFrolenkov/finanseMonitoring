@@ -32,6 +32,7 @@ const PieChart = () => {
 
     const onPieEnter = useCallback((_, index) => {
         setActiveIndex(index)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [activeIndex])
 
     const monthStateHelper = (state, status) => {
