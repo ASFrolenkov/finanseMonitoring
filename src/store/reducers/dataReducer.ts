@@ -14,6 +14,13 @@ export interface ISingleDataElem {
                     name: string,
                     value: number
                 }
+            ],
+            operations: [
+                {
+                    name: string,
+                    value: number,
+                    date: number
+                }
             ]
         }
     ]

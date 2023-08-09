@@ -15,6 +15,38 @@ const data = [
                     {name: 'subscriptions', value: 500},
                     {name: 'education', value: 7000},
                     {name: 'entertainment', value: 10000},
+                ],
+                operations: [
+                    {
+                        name: 'markets',
+                        value: 100,
+                        date: 29
+                    },
+                    {
+                        name: 'cafes',
+                        value: 1000,
+                        date: 29
+                    },
+                    {
+                        name: 'transfer',
+                        value: 1500,
+                        date: 29
+                    },
+                    {
+                        name: 'transfer',
+                        value: 200,
+                        date: 25
+                    },
+                    {
+                        name: 'markets',
+                        value: 2000,
+                        date: 22
+                    },
+                    {
+                        name: 'markets',
+                        value: 1500,
+                        date: 20
+                    },
                 ]
             },
             {
@@ -28,6 +60,38 @@ const data = [
                     {name: 'subscriptions', value: 500},
                     {name: 'education', value: 7000},
                     {name: 'entertainment', value: 10000},
+                ],
+                operations: [
+                    {
+                        name: 'markets',
+                        value: 100,
+                        date: 29
+                    },
+                    {
+                        name: 'cafes',
+                        value: 1000,
+                        date: 29
+                    },
+                    {
+                        name: 'transfer',
+                        value: 1500,
+                        date: 29
+                    },
+                    {
+                        name: 'transfer',
+                        value: 200,
+                        date: 25
+                    },
+                    {
+                        name: 'markets',
+                        value: 2000,
+                        date: 22
+                    },
+                    {
+                        name: 'markets',
+                        value: 1500,
+                        date: 20
+                    },
                 ]
             },
             {
@@ -41,6 +105,38 @@ const data = [
                     {name: 'subscriptions', value: 500},
                     {name: 'education', value: 7000},
                     {name: 'entertainment', value: 10000},
+                ],
+                operations: [
+                    {
+                        name: 'markets',
+                        value: 100,
+                        date: 29
+                    },
+                    {
+                        name: 'cafes',
+                        value: 1000,
+                        date: 29
+                    },
+                    {
+                        name: 'transfer',
+                        value: 1500,
+                        date: 29
+                    },
+                    {
+                        name: 'transfer',
+                        value: 200,
+                        date: 25
+                    },
+                    {
+                        name: 'markets',
+                        value: 2000,
+                        date: 22
+                    },
+                    {
+                        name: 'markets',
+                        value: 1500,
+                        date: 20
+                    },
                 ]
             },
             {
@@ -54,6 +150,38 @@ const data = [
                     {name: 'subscriptions', value: 500},
                     {name: 'education', value: 7000},
                     {name: 'entertainment', value: 10000},
+                ],
+                operations: [
+                    {
+                        name: 'markets',
+                        value: 100,
+                        date: 29
+                    },
+                    {
+                        name: 'cafes',
+                        value: 1000,
+                        date: 29
+                    },
+                    {
+                        name: 'transfer',
+                        value: 1500,
+                        date: 29
+                    },
+                    {
+                        name: 'transfer',
+                        value: 200,
+                        date: 25
+                    },
+                    {
+                        name: 'markets',
+                        value: 2000,
+                        date: 22
+                    },
+                    {
+                        name: 'markets',
+                        value: 1500,
+                        date: 20
+                    },
                 ]
             },
             {
@@ -67,6 +195,38 @@ const data = [
                     {name: 'subscriptions', value: 500},
                     {name: 'education', value: 7000},
                     {name: 'entertainment', value: 10000},
+                ],
+                operations: [
+                    {
+                        name: 'markets',
+                        value: 100,
+                        date: 29
+                    },
+                    {
+                        name: 'cafes',
+                        value: 1000,
+                        date: 29
+                    },
+                    {
+                        name: 'transfer',
+                        value: 1500,
+                        date: 29
+                    },
+                    {
+                        name: 'transfer',
+                        value: 200,
+                        date: 25
+                    },
+                    {
+                        name: 'markets',
+                        value: 2000,
+                        date: 22
+                    },
+                    {
+                        name: 'markets',
+                        value: 1500,
+                        date: 20
+                    },
                 ]
             },
             {
@@ -80,6 +240,38 @@ const data = [
                     {name: 'subscriptions', value: 500},
                     {name: 'education', value: 7200},
                     {name: 'entertainment', value: 15200},
+                ],
+                operations: [
+                    {
+                        name: 'markets',
+                        value: 100,
+                        date: 29
+                    },
+                    {
+                        name: 'cafes',
+                        value: 1000,
+                        date: 29
+                    },
+                    {
+                        name: 'transfer',
+                        value: 1500,
+                        date: 29
+                    },
+                    {
+                        name: 'transfer',
+                        value: 200,
+                        date: 25
+                    },
+                    {
+                        name: 'markets',
+                        value: 2000,
+                        date: 22
+                    },
+                    {
+                        name: 'markets',
+                        value: 1500,
+                        date: 20
+                    },
                 ]
             },
             {
@@ -93,6 +285,38 @@ const data = [
                     {name: 'subscriptions', value: 500},
                     {name: 'education', value: 7000},
                     {name: 'entertainment', value: 10000},
+                ],
+                operations: [
+                    {
+                        name: 'markets',
+                        value: 100,
+                        date: 29
+                    },
+                    {
+                        name: 'cafes',
+                        value: 1000,
+                        date: 29
+                    },
+                    {
+                        name: 'transfer',
+                        value: 1500,
+                        date: 29
+                    },
+                    {
+                        name: 'transfer',
+                        value: 200,
+                        date: 25
+                    },
+                    {
+                        name: 'markets',
+                        value: 2000,
+                        date: 22
+                    },
+                    {
+                        name: 'markets',
+                        value: 1500,
+                        date: 20
+                    },
                 ]
             },
             {
@@ -106,6 +330,38 @@ const data = [
                     {name: 'subscriptions', value: 1500},
                     {name: 'education', value: 4000},
                     {name: 'entertainment', value: 12000},
+                ],
+                operations: [
+                    {
+                        name: 'markets',
+                        value: 1000,
+                        date: 7
+                    },
+                    {
+                        name: 'cafes',
+                        value: 1000,
+                        date: 7
+                    },
+                    {
+                        name: 'transfer',
+                        value: 1500,
+                        date: 5
+                    },
+                    {
+                        name: 'transfer',
+                        value: 200,
+                        date: 4
+                    },
+                    {
+                        name: 'markets',
+                        value: 2000,
+                        date: 3
+                    },
+                    {
+                        name: 'markets',
+                        value: 1500,
+                        date: 2
+                    },
                 ]
             },
             {
@@ -119,6 +375,38 @@ const data = [
                     {name: 'subscriptions', value: 500},
                     {name: 'education', value: 7000},
                     {name: 'entertainment', value: 10000},
+                ],
+                operations: [
+                    {
+                        name: 'markets',
+                        value: 100,
+                        date: 29
+                    },
+                    {
+                        name: 'cafes',
+                        value: 1000,
+                        date: 29
+                    },
+                    {
+                        name: 'transfer',
+                        value: 1500,
+                        date: 29
+                    },
+                    {
+                        name: 'transfer',
+                        value: 200,
+                        date: 25
+                    },
+                    {
+                        name: 'markets',
+                        value: 2000,
+                        date: 22
+                    },
+                    {
+                        name: 'markets',
+                        value: 1500,
+                        date: 20
+                    },
                 ]
             },
             {
@@ -132,6 +420,38 @@ const data = [
                     {name: 'subscriptions', value: 500},
                     {name: 'education', value: 7000},
                     {name: 'entertainment', value: 10000},
+                ],
+                operations: [
+                    {
+                        name: 'markets',
+                        value: 100,
+                        date: 29
+                    },
+                    {
+                        name: 'cafes',
+                        value: 1000,
+                        date: 29
+                    },
+                    {
+                        name: 'transfer',
+                        value: 1500,
+                        date: 29
+                    },
+                    {
+                        name: 'transfer',
+                        value: 200,
+                        date: 25
+                    },
+                    {
+                        name: 'markets',
+                        value: 2000,
+                        date: 22
+                    },
+                    {
+                        name: 'markets',
+                        value: 1500,
+                        date: 20
+                    },
                 ]
             },
             {
@@ -145,6 +465,38 @@ const data = [
                     {name: 'subscriptions', value: 500},
                     {name: 'education', value: 7000},
                     {name: 'entertainment', value: 10000},
+                ],
+                operations: [
+                    {
+                        name: 'markets',
+                        value: 100,
+                        date: 29
+                    },
+                    {
+                        name: 'cafes',
+                        value: 1000,
+                        date: 29
+                    },
+                    {
+                        name: 'transfer',
+                        value: 1500,
+                        date: 29
+                    },
+                    {
+                        name: 'transfer',
+                        value: 200,
+                        date: 25
+                    },
+                    {
+                        name: 'markets',
+                        value: 2000,
+                        date: 22
+                    },
+                    {
+                        name: 'markets',
+                        value: 1500,
+                        date: 20
+                    },
                 ]
             },
             {
@@ -158,6 +510,38 @@ const data = [
                     {name: 'subscriptions', value: 500},
                     {name: 'education', value: 7000},
                     {name: 'entertainment', value: 10000},
+                ],
+                operations: [
+                    {
+                        name: 'markets',
+                        value: 100,
+                        date: 29
+                    },
+                    {
+                        name: 'cafes',
+                        value: 1000,
+                        date: 29
+                    },
+                    {
+                        name: 'transfer',
+                        value: 1500,
+                        date: 29
+                    },
+                    {
+                        name: 'transfer',
+                        value: 200,
+                        date: 25
+                    },
+                    {
+                        name: 'markets',
+                        value: 2000,
+                        date: 22
+                    },
+                    {
+                        name: 'markets',
+                        value: 1500,
+                        date: 20
+                    },
                 ]
             },
         ]
@@ -178,6 +562,38 @@ const data = [
                     {name: 'subscriptions', value: 500},
                     {name: 'education', value: 5000},
                     {name: 'entertainment', value: 9000},
+                ],
+                operations: [
+                    {
+                        name: 'markets',
+                        value: 100,
+                        date: 29
+                    },
+                    {
+                        name: 'cafes',
+                        value: 1000,
+                        date: 29
+                    },
+                    {
+                        name: 'transfer',
+                        value: 1500,
+                        date: 29
+                    },
+                    {
+                        name: 'transfer',
+                        value: 200,
+                        date: 25
+                    },
+                    {
+                        name: 'markets',
+                        value: 2000,
+                        date: 22
+                    },
+                    {
+                        name: 'markets',
+                        value: 1500,
+                        date: 20
+                    },
                 ]
             },
             {
@@ -191,6 +607,38 @@ const data = [
                     {name: 'subscriptions', value: 300},
                     {name: 'education', value: 5400},
                     {name: 'entertainment', value: 6750},
+                ],
+                operations: [
+                    {
+                        name: 'markets',
+                        value: 100,
+                        date: 29
+                    },
+                    {
+                        name: 'cafes',
+                        value: 1000,
+                        date: 29
+                    },
+                    {
+                        name: 'transfer',
+                        value: 1500,
+                        date: 29
+                    },
+                    {
+                        name: 'transfer',
+                        value: 200,
+                        date: 25
+                    },
+                    {
+                        name: 'markets',
+                        value: 2000,
+                        date: 22
+                    },
+                    {
+                        name: 'markets',
+                        value: 1500,
+                        date: 20
+                    },
                 ]
             },
             {
@@ -204,6 +652,38 @@ const data = [
                     {name: 'subscriptions', value: 300},
                     {name: 'education', value: 5000},
                     {name: 'entertainment', value: 12000},
+                ],
+                operations: [
+                    {
+                        name: 'markets',
+                        value: 100,
+                        date: 29
+                    },
+                    {
+                        name: 'cafes',
+                        value: 1000,
+                        date: 29
+                    },
+                    {
+                        name: 'transfer',
+                        value: 1500,
+                        date: 29
+                    },
+                    {
+                        name: 'transfer',
+                        value: 200,
+                        date: 25
+                    },
+                    {
+                        name: 'markets',
+                        value: 2000,
+                        date: 22
+                    },
+                    {
+                        name: 'markets',
+                        value: 1500,
+                        date: 20
+                    },
                 ]
             },
             {
@@ -217,6 +697,38 @@ const data = [
                     {name: 'subscriptions', value: 500},
                     {name: 'education', value: 7000},
                     {name: 'entertainment', value: 10000},
+                ],
+                operations: [
+                    {
+                        name: 'markets',
+                        value: 100,
+                        date: 29
+                    },
+                    {
+                        name: 'cafes',
+                        value: 1000,
+                        date: 29
+                    },
+                    {
+                        name: 'transfer',
+                        value: 1500,
+                        date: 29
+                    },
+                    {
+                        name: 'transfer',
+                        value: 200,
+                        date: 25
+                    },
+                    {
+                        name: 'markets',
+                        value: 2000,
+                        date: 22
+                    },
+                    {
+                        name: 'markets',
+                        value: 1500,
+                        date: 20
+                    },
                 ]
             },
             {
@@ -230,6 +742,38 @@ const data = [
                     {name: 'subscriptions', value: 500},
                     {name: 'education', value: 7000},
                     {name: 'entertainment', value: 10000},
+                ],
+                operations: [
+                    {
+                        name: 'markets',
+                        value: 100,
+                        date: 29
+                    },
+                    {
+                        name: 'cafes',
+                        value: 1000,
+                        date: 29
+                    },
+                    {
+                        name: 'transfer',
+                        value: 1500,
+                        date: 29
+                    },
+                    {
+                        name: 'transfer',
+                        value: 200,
+                        date: 25
+                    },
+                    {
+                        name: 'markets',
+                        value: 2000,
+                        date: 22
+                    },
+                    {
+                        name: 'markets',
+                        value: 1500,
+                        date: 20
+                    },
                 ]
             },
             {
@@ -243,6 +787,38 @@ const data = [
                     {name: 'subscriptions', value: 350},
                     {name: 'education', value: 4200},
                     {name: 'entertainment', value: 13200},
+                ],
+                operations: [
+                    {
+                        name: 'markets',
+                        value: 100,
+                        date: 29
+                    },
+                    {
+                        name: 'cafes',
+                        value: 1000,
+                        date: 29
+                    },
+                    {
+                        name: 'transfer',
+                        value: 1500,
+                        date: 29
+                    },
+                    {
+                        name: 'transfer',
+                        value: 200,
+                        date: 25
+                    },
+                    {
+                        name: 'markets',
+                        value: 2000,
+                        date: 22
+                    },
+                    {
+                        name: 'markets',
+                        value: 1500,
+                        date: 20
+                    },
                 ]
             },
             {
@@ -256,6 +832,38 @@ const data = [
                     {name: 'subscriptions', value: 350},
                     {name: 'education', value: 4000},
                     {name: 'entertainment', value: 13100},
+                ],
+                operations: [
+                    {
+                        name: 'markets',
+                        value: 100,
+                        date: 29
+                    },
+                    {
+                        name: 'cafes',
+                        value: 1000,
+                        date: 29
+                    },
+                    {
+                        name: 'transfer',
+                        value: 1500,
+                        date: 29
+                    },
+                    {
+                        name: 'transfer',
+                        value: 200,
+                        date: 25
+                    },
+                    {
+                        name: 'markets',
+                        value: 2000,
+                        date: 22
+                    },
+                    {
+                        name: 'markets',
+                        value: 1500,
+                        date: 20
+                    },
                 ]
             },
             {

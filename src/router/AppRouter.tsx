@@ -6,6 +6,7 @@ import { useAppSelector } from '../hooks/hooks';
 import PaymentsPage from '../pages/PaymentsPage';
 import Charts from '../components/Charts';
 import GeneralPage from '../pages/GeneralPage';
+import OperationsPage from '../pages/OperationsPage';
 
 const AppRouter = () => {
 
@@ -17,6 +18,7 @@ const AppRouter = () => {
 				<Routes>
 					<Route path='/' element={<Charts/>}/>
 					<Route path='/payments' element={<PaymentsPage/>}/>
+					<Route path='/operations' element={<OperationsPage/>}/>
 					<Route path='*' element={<Navigate to='/' replace/>}/>
 				</Routes>
 			</GeneralPage>
