@@ -82,7 +82,7 @@ const CardSelector = ({data, flag, toggleBtn}: any) => {
                                 </div>}
 
             {toggleModal && 
-                            <div className={`flex flex-col py-1 px-3 absolute mt-[124px] h-[402px] overflow-auto`}>
+                            <div className={`flex flex-col py-1 px-3 absolute mt-[124px] h-[402px] overflow-auto z-10`}>
                                 {editedArr.map((elem: ISingleDataElem ) => (
                                     <button
                                         key={elem.id} 
@@ -111,8 +111,8 @@ const CardSelector = ({data, flag, toggleBtn}: any) => {
                                                                                             alt="card-icon"
                                                                                             className='w-[50px]'/>
                                                                                         <div>
-                                                                                            <p className='text-left text-sm'>Номер карты:</p>
-                                                                                            <p className='text-lg'>
+                                                                                            <p className='text-left text-sm max-[767px]:text-center'>Номер карты:</p>
+                                                                                            <p className='text-lg max-[767px]:text-sm'>
                                                                                                 {
                                                                                                     elem.cardNumber
                                                                                                         .toString()
@@ -150,8 +150,8 @@ const CardSelector = ({data, flag, toggleBtn}: any) => {
                                                                                         alt="card-icon"
                                                                                         className='w-[50px]'/>
                                                                                     <div>
-                                                                                        <p className='text-left text-sm'>Номер карты:</p>
-                                                                                        <p className='text-lg'>
+                                                                                        <p className='text-left text-sm max-[767px]:text-center'>Номер карты:</p>
+                                                                                        <p className='text-lg max-[767px]:text-sm'>
                                                                                             {
                                                                                                 currentData.cardNumber
                                                                                                     .toString()
@@ -165,11 +165,11 @@ const CardSelector = ({data, flag, toggleBtn}: any) => {
                                                                                     <img 
                                                                                         src={cardIcon} 
                                                                                         alt="card-icon"
-                                                                                        className='w-[50px]'/>
+                                                                                        className='w-[50px] max-[767px]:hidden'/>
                                                                                     <div>
                                                                                         <input 
                                                                                             type="text"
-                                                                                            className='p-2 w-[175px] border border-slate-200 rounded-lg shadow-md'
+                                                                                            className='p-2 w-[178px] border border-slate-200 rounded-lg shadow-md'
                                                                                             onClick={(e) => e.stopPropagation()}
                                                                                             onChange={onChangeHandler}
                                                                                             value={inputValue}

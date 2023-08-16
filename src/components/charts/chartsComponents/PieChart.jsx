@@ -5,6 +5,8 @@ import monthSwitch from '../../../assets/functions/monthSwitch';
 import upperCaseFirstLetter from '../../../assets/functions/upperCaseFirstLetter';
 import { useAppSelector } from '../../../hooks/hooks';
 import { dataSelector } from '../../../store/reducers/dataReducer';
+import { responsiveWidth } from '../../../assets/functions/responsiveWidth';
+import { responsiveHeight } from '../../../assets/functions/responsiveHeight';
 
 const PieChart = () => {
 
@@ -50,6 +52,41 @@ const PieChart = () => {
         }
     }
 
+    const responsiveInnerRadius = (width) => {
+        if (width < 426) {
+            return '35%'
+        }
+
+        if (width < 645) {
+            return '45%'
+        }
+
+        if (width < 768) {
+            return '55%'
+        }
+
+        if (width < 1280) {
+            return '60%'
+        }
+
+        return '70%'
+    };
+
+    const responsiveOuterRadius = (width) => {
+        if (width < 645) {
+            return '55%'
+        }
+
+        if (width < 768) {
+            return '65%'
+        }
+
+        if (width < 1280) {
+            return '70%'
+        }
+
+        return '80%'
+    }
 
     if (currentMonth.description) {
         return (
@@ -63,15 +100,15 @@ const PieChart = () => {
                     <h4>Траты за этот месяц: {currentData.spending[monthNumber].total}</h4>
                 </div>
                 
-                <WrapperChart width={900} height={500}>
+                <WrapperChart width={responsiveWidth(window.innerWidth)} height={responsiveHeight(window.innerWidth)} className='mx-auto'>
                     <Pie 
                         activeIndex={activeIndex}
                         activeShape={renderActiveShape}
                         data={currentMonth.description} 
                         dataKey='value' 
                         nameKey='name'
-                        innerRadius='70%'
-                        outerRadius='80%'
+                        innerRadius={responsiveInnerRadius(window.innerWidth)}
+                        outerRadius={responsiveOuterRadius(window.innerWidth)}
                         paddingAngle={2}
                         onMouseEnter={onPieEnter}>
                             {currentMonth.description.map((entry, index) => {

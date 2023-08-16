@@ -11,7 +11,7 @@ const AsideComp = () => {
     if (allData) {
         return (
             <aside className='col-span-1'>
-                <ul className='text-black'>
+                <ul className='text-black max-[644px]:flex max-[644px]:justify-center max-[644px]:gap-4'>
                     {allData.map((elem: ISingleDataElem, index: number) => <CardItem 
                                                     itemIndex={index} 
                                                     key={elem.id} 

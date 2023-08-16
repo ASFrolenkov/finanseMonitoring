@@ -5,8 +5,11 @@ import { useAppSelector } from '../../../hooks/hooks';
 import { dataSelector } from '../../../store/reducers/dataReducer';
 import monthSwitch from '../../../assets/functions/monthSwitch';
 import upperCaseFirstLetter from '../../../assets/functions/upperCaseFirstLetter';
+import { responsiveWidth } from '../../../assets/functions/responsiveWidth';
+import { responsiveHeight } from '../../../assets/functions/responsiveHeight';
 
 const LineChart = () => {
+    const windowWidth = window.innerWidth
 
     const {currentData} = useAppSelector(dataSelector);
 
@@ -24,7 +27,7 @@ const LineChart = () => {
     }
     
     return (
-        <AreaChart width={1000} height={572} data={editedArr} margin={{top: 10, right: 10}} className='mx-auto'>
+        <AreaChart width={responsiveWidth(windowWidth)} height={responsiveHeight(windowWidth)} data={editedArr} margin={{top: 10, right: 10}} className='mx-auto'>
             <defs>
                 <linearGradient id='colorSpending' x1='0' y1='0' x2='0' y2='1'>
                     <stop offset="5%" stopColor="#8884d8" stopOpacity={0.8}/>

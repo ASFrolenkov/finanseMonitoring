@@ -44,12 +44,13 @@ const Payments = () => {
 	if (allData) {
 		return (
 			<div className={'p-5 ' + borderClassName}>
-				<div className='flex justify-center items-center'>
+				<div className='flex justify-center items-center max-[444px]:flex-col'>
 					<CardSelector 
 								data={allData}
 								toggleBtn={setDisabledBtn}/>
 					
-					<div className='mx-9 text-5xl'>{'>'}</div>
+					<div className='mx-9 text-5xl max-[767px]:mx-4 
+									max-[425px]:rotate-90 max-[425px]:mr-1 max-[425px]:z-0'>{'>'}</div>
 					<CardSelector
 								data={savedCard}
 								flag='to'/>

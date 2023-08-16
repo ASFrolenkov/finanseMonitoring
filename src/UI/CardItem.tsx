@@ -30,10 +30,10 @@ const CardItem = ({id, cardNumber = 1000, balance = 1000, itemIndex}: ICardItemP
                         ${borderClassName}
                         ${!currentCard && 'bg-slate-300 hover:bg-slate-200 transition'}`}>
             <button 
-                className='flex w-full items-center'
+                className='flex w-full items-center max-[1024px]:flex-col'
                 onClick={changeCurrentDataInState}>
-                <img src={cardIcon} alt="card-icon" className='w-[50px] h-[50px] mr-6'/>
-                <div className='text-left'>
+                <img src={cardIcon} alt="card-icon" className='w-[50px] h-[50px] mr-6 max-[1024px]:mr-0'/>
+                <div className='text-left max-[1024px]:text-center'>
                     <p className='text-xl'>{balance} ₽</p>
                     <p className='text-xs text-slate-400'>Номер карты ** {cardNumber.toString().slice(-4)}</p>
                 </div>

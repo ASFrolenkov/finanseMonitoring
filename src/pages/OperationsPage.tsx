@@ -45,7 +45,8 @@ const OperationsPage = () => {
                                             ))}
                                         </ul>
                                         :
-                                        <div className={`w-[300px] p-3 mx-auto ${borderClassName}`}>
+                                        <div className={`w-[300px] p-3 mx-auto ${borderClassName} 
+                                                            max-[376px]:mx-auto max-[376px]:w-[240px]`}>
                                             <p className='text-slate-400'>Операций в данном месяце еще не было</p>
                                         </div>
                 }

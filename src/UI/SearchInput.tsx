@@ -22,7 +22,7 @@ const SearchInput = () => {
     return (
         <input 
             type="text"
-            className='border-2 rounded-lg h-8 p-2 w-[300px] shadow-md'
+            className='border-2 rounded-lg h-8 p-2 w-[300px] shadow-md max-[1280px]:hidden'
             placeholder='Поиск'
             value={value}
             onChange={e => setValue(e.target.value)}/>

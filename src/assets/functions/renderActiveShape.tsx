@@ -39,8 +39,15 @@ const renderActiveShape = (props: IProps) => {
 
     return (
         <g>
-            <text x={cx} y={cy} dy={11} textAnchor='middle' fill={fill} className='text-4xl'>
+            <text x={cx} y={cy + (window.innerWidth < 426 ? 105 : 0) + (window.innerWidth < 376 ? -30 : 0)} dy={11} textAnchor='middle' fill={fill} className='text-4xl 
+                                                                                    max-[1280px]:text-2xl 
+                                                                                    max-[767px]:text-xl 
+                                                                                    max-[644px]:text-lg
+                                                                                    max-[425px]:text-sm'>
                 {nameSwitch(payload.name)}
+            </text>
+            <text x={cx} y={cy + 125 + (window.innerWidth < 376 ? -35 : 0)} dy={11} textAnchor='middle' fill={fill} className='hidden max-[425px]:block'>
+                {`Траты: ${value} ₽`}
             </text>
             <Sector
                 cx={cx}
@@ -62,15 +69,25 @@ const renderActiveShape = (props: IProps) => {
                 x={sx + (cos >= 0 ? 1 : -1) * 15}
                 y={sy + (sin >= 0 ? 1 : -1) * 20}
                 textAnchor={textAnchor}
-                fill='#000'>
+                fill='#000'
+                className='max-[1023px]:hidden'>
                 {`${nameSwitch(payload.name)}: ${value}`}
+            </text>
+            <text
+                x={sx + (cos >= 0 ? 1 : -1) * 15}
+                y={sy + (sin >= 0 ? 1 : -1) * 20}
+                textAnchor={textAnchor}
+                fill='#000'
+                className='hidden max-[1023px]:block max-[425px]:hidden'>
+                {`${value} ₽`}
             </text>
             <text
                 x={sx + (cos >= 0 ? 1 : -1) * 25}
                 y={sy + (sin >= 0 ? 1 : -1) * 20}
                 dy={18}
                 textAnchor={textAnchor}
-                fill='#999'>
+                fill='#999'
+                className='max-[425px]:hidden'>
                 {`${(percent * 100).toFixed(2)}%`}
             </text>
         </g>

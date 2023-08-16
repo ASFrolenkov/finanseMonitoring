@@ -35,7 +35,7 @@ const LoginPage = () => {
         return;
     }
 
-    const loginInputClassNames = 'w-96 h-10 px-4 border rounded-xl shadow-slate-300 shadow-md'
+    const loginInputClassNames = 'w-96 h-10 px-4 border rounded-xl shadow-slate-300 shadow-md max-[375px]:w-72'
 
     return (
         <div className='h-screen'>

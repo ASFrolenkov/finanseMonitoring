@@ -8,7 +8,7 @@ const PaymentsCardItem = ({balance, cardNumber, id, itemIndex}: ICardItemProps) 
         <div className={`p-4 text-center flex flex-col justify-center ${cardSize} ${borderClassName}`}>
             <div className='flex items-center'>
                 <img src={cardIcon} alt="cardIcon" className='w-[50px] mr-4'/>
-                <p className='text-2xl'>{`Баланс: ${balance} ₽`}</p>
+                <p className='text-2xl max-[767px]:text-xl'>{`Баланс: ${balance} ₽`}</p>
             </div>
             <p className='text-slate-400 text-sm'>{`Карта ** ${(cardNumber).toString().slice(-4)}`}</p>
         </div>

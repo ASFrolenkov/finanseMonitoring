@@ -10,7 +10,7 @@ const NavigationLink: FC<INavLink> = ({children, to}) => {
     return (
         <Link 
             to={to}
-            className='px-2 hover:shadow-md hover:bg-slate-100 rounded'>
+            className='px-2 hover:shadow-md hover:bg-slate-100 rounded max-[767px]:text-center'>
             {children}
         </Link>
     )

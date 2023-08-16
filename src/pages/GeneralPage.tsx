@@ -20,7 +20,7 @@ const GeneralPage = ({children}: IProps) => {
     return (
         <>
             <Header/>
-            <section className='container mx-auto py-8'>
+            <section className='container mx-auto py-8 max-[1280px]:px-5'>
                 {children}
             </section>
         </>
